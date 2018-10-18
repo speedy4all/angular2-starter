@@ -16,12 +16,8 @@ export class UserService implements CanActivate {
   constructor(private router: Router) {
     // Initialize Firebase
     var config = {
-      apiKey: 'AIzaSyC2mNcZloFeCG-42Z5-MvfOYkvb1P4HXi0',
-      authDomain: 'angular2-19fb0.firebaseapp.com',
-      databaseURL: 'https://angular2-19fb0.firebaseio.com',
-      projectId: 'angular2-19fb0',
-      storageBucket: 'angular2-19fb0.appspot.com',
-      messagingSenderId: '297118650514'
+      //add your config from firebase console
+
     };
     firebase.initializeApp(config);
   }
